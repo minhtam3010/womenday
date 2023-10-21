@@ -3,7 +3,8 @@ import { Center, Flex, Group, Image, Text, Title } from "@mantine/core";
 // import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 // import Logo from "./assets/Logo.svg";
 import "./AnimateScroll.css";
-import Canva1 from "./assets/Canva1.svg";
+// import Canva1 from
+import Canva1 from "/assets/Canva1.svg";
 import Canva2 from "./assets/Canva2.svg";
 import Canva3 from "./assets/Canva3.svg";
 import Canva5 from "./assets/Canva5.svg";
