@@ -1,0 +1,145 @@
+@keyframes move-right {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(510px);
+    }
+}
+@keyframes move-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-510px);
+    }
+}
+
+@keyframes begin-left {
+    from {
+      transform: translateX(-110px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+@keyframes begin-right {
+    from {
+      transform: translateX(110px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  
+.animation-move-right {
+    position: absolute;
+    animation: move-right 0.5s ease-in-out forwards;
+    z-index: 101;
+}
+
+.animation-move-left {
+    position: absolute;
+    animation: move-left 0.5s ease-in-out forwards;
+    z-index: 101;
+}
+
+.animation-begin-right {
+    position: absolute;
+    animation: begin-right 0.8s ease-in-out forwards;
+    z-index: 101;
+}
+
+.animation-begin-left {
+    position: absolute;
+    animation: begin-left 0.8s ease-in-out forwards;
+    z-index: 101;
+}
+
+.animation-begin-right img {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.animation-begin-left img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#signature {
+    stroke-dasharray: 294;
+    stroke-dashoffset: 294;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.burst-1 {
+    animation: burst 1s forwards;
+}
+.burst-2 {
+    animation: burst 1.5s forwards;
+}
+.burst-3 {
+    animation: burst 2s forwards;
+}
+.burst-4 {
+    animation: burst 2.5s forwards;
+}
+.burst-5 {
+    animation: burst 3s forwards;
+}
+.burst-6 {
+    animation: burst 3.5s forwards;
+}
+.burst-7 {
+    animation: burst 4s forwards;
+}
+
+@keyframes burst {
+from {
+    transform: scale(2);
+    opacity: 0;
+}
+to {
+    transform: scale(1);
+    opacity: 1;
+}
+}
+
+.color-movement {
+    background: linear-gradient(to right, red, yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        color: red;
+        left: 0;
+    }
+    100% {
+        color: blue;
+        left: calc(100% - 48px);
+    }
+}
+
+#signature {
+    stroke-dasharray: 1134;
+    stroke-dashoffset: 1134;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
