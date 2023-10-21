@@ -7,8 +7,8 @@ import {
   Button,
   TextInput,
 } from "@mantine/core";
-import Teacher from "./assets/Young_businesswoman_finger_point_up_cartoon_illustration.jpg";
-import Student from "./assets/9019105.jpg";
+// import Teacher from "./assets/Young_businesswoman_finger_point_up_cartoon_illustration.jpg";
+// import Student from "./assets/9019105.jpg";
 // import Logo from "./assets/CHĂM CHỈ.svg";
 import Each1 from "./assets/image_part_001.jpg";
 import Each2 from "./assets/image_part_002.jpg";

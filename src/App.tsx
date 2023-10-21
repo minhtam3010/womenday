@@ -1,7 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./Layout";
-import Login from "./Login";
-import Loading from "./Loading";
 import AnimateScroll from "./AnimateScroll";
 
 function App() {
